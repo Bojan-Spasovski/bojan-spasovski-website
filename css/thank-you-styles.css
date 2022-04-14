@@ -1,0 +1,44 @@
+body {
+  background-color: #1e2022;
+}
+
+.thank-you-main {
+  font-family: "Teko", sans-serif;
+  font-size: 1.45rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 25px;
+  margin: 55px auto 55px auto;
+}
+
+.thank-you-note {
+  color: #80a33e;
+}
+
+.satellite-image img {
+  height: auto;
+  margin: 2rem auto 2rem auto;
+  width: 150px;
+}
+
+.thank-you-main button {
+  font-family: "Teko", sans-serif;
+    font-size: 1.05rem;
+    margin: 2rem auto 2rem auto;
+    width: 10rem;
+    padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+    background-color: rgb(78, 58, 190);
+    color: azure;
+    cursor: pointer;
+    border-radius: 16px;
+    border-width: 1px;
+    border-style: solid;
+    transition: 0.5s ease-out;
+}
+
+.thank-you-main button:hover {
+  font-size: 1.15rem;
+  width: 11rem;
+  color: rgb(187, 255, 0);
+}

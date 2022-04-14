@@ -1,0 +1,194 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: auto;
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Fonts */
+
+ul {
+  list-style: none;
+}
+
+/* Section 1 */
+h1 {
+  font-family: "Wallpoet", cursive;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 2px #2c2e30;
+}
+.header-info h1 {
+  font-size: 3rem;
+}
+
+.header-info p {
+ font-size: 1.45rem;
+ font-weight: 500;
+}
+
+.main-info li {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+/* Section 2 About Me */
+
+.about-me-content h2 {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.about-me-content p {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Section 3 Skills */
+
+.skill-article h3 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 500;
+}
+
+.skill-article p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 500;
+}
+
+/* Section 4 Form */
+
+.contact-form-heder h2, .contact-form-heder p {
+  font-family: 'Teko', sans-serif; 
+}
+
+/* Section 5 Footer */
+
+.basic-contact-left h3, .basic-contact-left ul a li, .basic-contact-right ul a li {
+  font-family: 'Teko', sans-serif; 
+}
+
+
+li {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Teko', sans-serif;
+}
+
+label {
+  font-family: 'Teko', sans-serif;
+}
+
+hr {
+  width: 80%;
+  height: 1px;
+  border: 0px;
+}
+
+span {
+  font-family: 'Teko', sans-serif;
+  color: #6a5acd;
+  text-shadow: 2px 2px 2px #2c2e30;
+}
+
+.nav-overlay-open ul a li {
+  font-family: 'Teko', sans-serif;
+  font-size: 4rem;
+}
+
+#submit-button {
+  font-family: 'Teko', sans-serif;
+  font-size: 1rem;
+}
+
+
+
+/* Text Colors */
+#site-header h1 {
+  color: #d9d7dc;
+}
+
+.header-info h1,
+.header-info p,
+.main-info li {
+  color: #80a33e;
+}
+
+h2,
+h3,
+p,
+li {
+  color: #d9d7dc;
+}
+
+span {
+  color: #d9d7dc;
+}
+
+#text-area label {
+  color: #d9d7dc;
+}
+
+button {
+  color: #000000;
+}
+
+button:hover {
+  color: white;
+}
+
+hr {
+  background-color: rgb(106, 90, 205);
+}
+
+.basic-contact-left h3,
+.basic-contact-left a li,
+.basic-contact-right a li {
+  color: rgb(106, 90, 205);
+}
+
+.footer-icons li {
+  color: rgb(106, 90, 205);
+}
+
+/*===========================================*/
+/*Section Backgrounds*/
+
+#section-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url(../images/code\ backgr.jpg);
+}
+
+#about-me {
+  background-color: rgba(35, 35, 83, 1);
+}
+
+#skills {
+  background-color: #1e2022;
+}
+
+form {
+  background-color: #181a1b;
+}
+
+#contact-form {
+  background-color: #181a1b;
+}
+
+footer {
+  background-color: #131314;
+}
+
+
+
+
