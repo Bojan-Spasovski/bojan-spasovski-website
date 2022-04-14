@@ -366,6 +366,7 @@
   .about-me-content p {
     font-size: 1.5rem;
     font-weight: 400;
+    text-align: center;
   }
 
   .about-me-content figure {
@@ -528,6 +529,12 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+  }
+
+  .inner-content-section-two article {
+    width: 100%;
+    margin: 0 1rem 0 2rem;
+    padding: 0 5rem 0 5rem;
   }
 
   /*Section 3 Skills Mobile*/
