@@ -336,7 +336,7 @@
   /*Section 1 Mobile*/
 
   .header-info {
-    padding: 0;
+    padding: 1rem;
   }
 
   .header-info p {
@@ -532,7 +532,7 @@
   }
 
   .inner-content-section-two article {
-    width: 100%;
+    width: 97%;
     margin: 0 1rem 0 2rem;
     padding: 0 5rem 0 5rem;
   }
