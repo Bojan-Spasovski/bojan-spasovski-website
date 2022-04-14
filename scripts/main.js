@@ -3,7 +3,7 @@ const mobileHamburgerBtn = document.getElementById("mobile-hamburger-btn");
 const sideDrawer = document.getElementById("side-drawer-btn");
 const formElement = document.querySelector(".form-row");
 
-const hamburgerBtnMobileX = document.getElementById("mobile-hamburger")
+const hamburgerBtnMobileX = document.getElementById("mobile-hamburger");
 const hamburgerBtnMobile = document.querySelector(".mobile-menu-btn");
 
 let headerScroll = document.getElementById("site-header");
@@ -73,7 +73,7 @@ const mobileButtonClick = function () {
     overlayList.classList.add(".nav-overlay-list-open");
     formElement.classList.add("form-row-closed");
     hamburgerBtnMobile.classList.add("mobile-menu-btn.open");
-    hamburgerBtnMobileX.classList.add("mobile-menu-btn__burger-open")
+    hamburgerBtnMobileX.classList.add("mobile-menu-btn__burger-open");
     sideDrawerOpen = true;
     disableScroll();
   } else {
@@ -81,13 +81,19 @@ const mobileButtonClick = function () {
     overlayList.classList.remove(".nav-overlay-list-open");
     formElement.classList.remove("form-row-closed");
     hamburgerBtnMobile.classList.remove("mobile-menu-btn-open");
-    hamburgerBtnMobileX.classList.remove("mobile-menu-btn__burger-open")
+    hamburgerBtnMobileX.classList.remove("mobile-menu-btn__burger-open");
     sideDrawerOpen = false;
     enableScroll();
   }
 };
 
 mobileHamburgerBtn.addEventListener("click", mobileButtonClick);
+
+/* Current Year Logic */
+
+let date = new Date();
+let year = date.getFullYear();
+document.getElementById("currentYear").innerHTML = year;
 
 /*=========================================================*/
 
