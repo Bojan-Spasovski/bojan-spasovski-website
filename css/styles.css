@@ -170,7 +170,6 @@
 .header-info {
   margin-top: 55px;
   text-align: left;
-  padding-left: 15px;
 }
 
 .further-description {
@@ -183,7 +182,7 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: flex-start;
-  padding: 5px;
+  
   list-style: none;
   width: 100%;
 }
