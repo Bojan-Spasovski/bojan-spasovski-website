@@ -32,11 +32,13 @@ h1 {
 }
 
 .header-info p {
+  font-family: 'Lexend Deca', sans-serif;
  font-size: 1.45rem;
  font-weight: 500;
 }
 
 .main-info li {
+  font-family: 'Lexend Deca', sans-serif;
   font-size: 1.15rem;
   font-weight: 400;
 }
