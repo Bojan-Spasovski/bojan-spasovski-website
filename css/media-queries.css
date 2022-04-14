@@ -530,6 +530,12 @@
     width: 100%;
   }
 
+  .inner-content-section-two article {
+    width: 100%;
+    margin: 0 1rem 0 2rem;
+    padding: 0 5rem 0 5rem;
+  }
+
   /*Section 3 Skills Mobile*/
 
   .skill-cards {
